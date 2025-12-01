@@ -228,6 +228,47 @@
     top: 0px;
     right: 15px;
 }
+.bg_check::after {
+    right: 90px;
+}
+#branding .brand_cnt img.img_arrow {
+    top: 168px;
+    left: 150px;
+}
+#help .help_icons_wrapper img{
+    display: block;
+    margin: auto;
+}
+#experties .paragraphs a {
+    margin-bottom: 50px;
+}
+#experties .progress_bar .bar .bar_percent2 {
+    width: 65%;
+}
+#experties .progress_bar .pro_details h6.name1 {
+    margin-right: 340px;
+}
+#experties .progress_bar .pro_details h6.name2 {
+    margin-right: 230px;
+}
+#experties .progress_bar .pro_details h6.name3 {
+    margin-right: 330px;
+}
+#experties .progress_bar .pro_details h6.name4 {
+    margin-right: 210px;
+}
+#my_service .services img.service_img {
+    display: block;
+}
+#feedback .title_para {
+    text-align: right;
+}
+#blog .blog_h3 {
+    text-align: center;
+}
+#blog .blog_card {
+    margin-bottom: 20px;
+}
 #qualities .info h6 {
     text-align: left;
     margin-top:0;
@@ -268,10 +309,19 @@
     font-size: 18px;
 }
 .newsletter-form{flex-direction:row;}
+.newsletter-box {
+    max-width: 700px;
+}
 }
 /* small device resonsive ends here */
 /* medium device responsive starts here */
 @media (min-width:768px) and (max-width:991.98px){
+     #mynavbar ul li a {
+    text-align: center;
+}
+#banner .follow_me {
+    margin: 66px;
+}
     .newsletter-box{padding:25px;}
 }
 /* medium device responsive end here */
